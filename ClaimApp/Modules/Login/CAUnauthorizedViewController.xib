@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CAUnauthorizedViewController" customModule="ClaimApp" customModuleProvider="target">
+            <connections>
+                <outlet property="messageLabel" destination="n8q-I3-XEy" id="0qs-Va-5b8"/>
+                <outlet property="okButton" destination="nCR-tl-7GN" id="Q1k-kV-A0X"/>
+                <outlet property="titleLabel" destination="xXL-oS-q0R" id="hsI-5q-ip6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w4P-fT-08f">
+                    <rect key="frame" x="66" y="321" width="282" height="254"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unauthorized Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXL-oS-q0R">
+                            <rect key="frame" x="20" y="25" width="191" height="26"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="19"/>
+                            <color key="textColor" red="0.086274509799999996" green="0.10980392160000001" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your session has expired or your permission has been revoked. You will be required to relogin your credential." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8q-I3-XEy">
+                            <rect key="frame" x="20" y="76" width="242" height="93"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                            <color key="textColor" red="0.23137254900000001" green="0.23137254900000001" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCR-tl-7GN">
+                            <rect key="frame" x="232" y="207" width="30" height="32"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="okButtonClicked:" destination="-1" eventType="touchUpInside" id="uyw-vM-qYl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="nCR-tl-7GN" secondAttribute="bottom" constant="15" id="089-6H-oPz"/>
+                        <constraint firstAttribute="width" secondItem="w4P-fT-08f" secondAttribute="height" multiplier="1:0.9" id="942-eA-yLA"/>
+                        <constraint firstAttribute="trailing" secondItem="nCR-tl-7GN" secondAttribute="trailing" constant="20" id="B7R-rd-2vt"/>
+                        <constraint firstItem="n8q-I3-XEy" firstAttribute="top" secondItem="xXL-oS-q0R" secondAttribute="bottom" constant="25" id="bGp-B1-Hta"/>
+                        <constraint firstItem="xXL-oS-q0R" firstAttribute="top" secondItem="w4P-fT-08f" secondAttribute="top" constant="25" id="dLQ-gv-k1A"/>
+                        <constraint firstAttribute="trailing" secondItem="n8q-I3-XEy" secondAttribute="trailing" constant="20" id="erz-mR-0HR"/>
+                        <constraint firstAttribute="width" constant="282" id="l3o-O3-8da"/>
+                        <constraint firstItem="xXL-oS-q0R" firstAttribute="leading" secondItem="w4P-fT-08f" secondAttribute="leading" constant="20" id="olO-0i-Tf6"/>
+                        <constraint firstItem="n8q-I3-XEy" firstAttribute="leading" secondItem="xXL-oS-q0R" secondAttribute="leading" id="pOZ-yj-FID"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.45162458609271522" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="w4P-fT-08f" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Jfg-R5-CXa"/>
+                <constraint firstItem="w4P-fT-08f" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="h63-wu-BY0"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="75.669642857142847"/>
+        </view>
+    </objects>
+</document>

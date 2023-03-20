@@ -1,0 +1,193 @@
+/* 
+  Localizable.strings
+  ClaimApp
+
+  Created by wanggao on 2022/9/7.
+  
+*/
+
+// Login
+"login_with_email_button_title" = "Login";
+"login_nav_title" = "Login";
+"login_title_welcome" = "Welcome to CORe";
+"login_title_with_email" = "Enter your CAPtain profile to proceed";
+"login_title_placeholder_email" = "Your email address";
+"login_title_placeholder_password" = "Your password";
+"login_title_success" = "Success!";
+"login_title_details_verified" = "Your details have been verified.\nTaking you to CORe App";
+"login_verified_error_message" = "Login failed. Wrong email or password.";
+
+// MY Expenses
+"my_expenses_nav_title" = "My Expenses";
+"my_expenses_button_title_personal" = "Personal";
+"my_expenses_button_title_inventory" = "Inventory";
+"my_expenses_title_status_not_submitted" = "Not Submitted";
+"my_expenses_title_status_submitted" = "Submitted";
+"my_expenses_title_status_approved" = "Approved";
+"my_expenses_title_status_reimbursed" = "Reimbursed";
+"my_expenses_title_status_rejected" = "Rejected";
+"my_expenses_title_swipe_remove" = "Remove";
+"my_expenses_title_create_expense" = "Create a new expense";
+
+// New Expense
+"new_expenses_nav_title" = "New Expense";
+"new_expenses_button_title_cancel" = "Cancel";
+"new_expenses_button_title_save" = "Save";
+"new_expenses_title_not_saved" = "Not Saved";
+"new_expenses_button_title_personal" = "Personal Expense";
+"new_expenses_button_title_inventory" = "Inventory Expense";
+"new_expenses_title_vendor" = "Vendor";
+"new_expenses_title_vendor_placeholder" = "Enter vendor name";
+"new_expenses_title_bank" = "Bank Name";
+"new_expenses_title_bank_placeholder" = "Enter bank name";
+"new_expenses_title_bank_no." = "Bank Account No.";
+"new_expenses_title_bank_no._placeholder" = "Enter bank no.";
+"new_expenses_title_invoice_no." = "Invoice No.";
+"new_expenses_title_invoice_no._placeholder" = "Enter invoice number";
+"new_expenses_title_date" = "Invoice Date";
+"new_expenses_title_date_placeholder" = "Select the invoice date";
+"new_expenses_title_due_date" = "Due Date";
+"new_expenses_title_due_date_placeholder" = "Select the due date";
+"new_expenses_title_Item" = "Item";
+"new_expenses_title_carplate_placeholder" = "Enter carplate no.";
+"new_expenses_title_category_placeholder" = "Select expense category";
+"new_expenses_title_description_placeholder" = "Enter item description";
+"new_expenses_button_title_add_item" = "Add new item and cost";
+"new_expenses_button_title_capture" = "Capture/File Receipt";
+"new_expenses_title_payment" = "Payment to";
+"new_expenses_title_payment_placeholder" = "Select payee";
+"new_expenses_button_title_make_claim" = "Make a Claim";
+"new_expenses_title_valid_information" = "Please enter valid information";
+"new_expenses_button_title_done" = "Done";
+"new_expenses_button_title_tap_change" = "Tap here to change";
+
+// Expense Detail
+"expense_detail_head_title_all_approved" = "All cost item approved. There will be a release of reimbursement soon.";
+"expense_detail_head_title_partial_approved" = "({approved_number}) cost item approved. There will be a release of reimbursement soon.";
+
+"default_error_title" = "Oops...";
+"login_help_form_nav_title" =  "Help";
+"login_help_form_title" =  "Step 1:\nCall us to retrieve 6-digit code.";
+"login_help_form_call_button_title" =  "Call Us";
+"login_help_form_subtitle" =  "Step 2:\nEnter the 6-digit code below. ";
+"login_help_form_submit_button_title" =  "Verify";
+
+"otp_form_nav_title" = "Verification";
+
+"otp_form_wrong_otp_message" = "We can't verify your code. Please try again";
+"otp_form_otp_expired_message" = "Your verification code has expired. Resend?";
+
+"otp_form_title" = "Enter the 6 digits sent to:";
+"otp_form_normal_footer_title" = "Code expired.";
+"otp_form_submit_button_title" = "Verify";
+"otp_form_resend_button_title" = "Resend Code";
+"otp_form_resend_countdown_message" = "Resend code in {numberOfSeconds}s";
+
+"otp_code_sent_title" = "Verification Code Sent";
+"otp_code_sent_message" = "The verification code has been successfully sent to";
+
+// Profile
+"profile_nav_title" = "Profile";
+"profile_title_log_out" = "Log Out";
+"profile_dialog_button_title_no" = "No";
+"profile_dialog_button_title_yes" = "Yes";
+
+"all_deactivate_pop_account_title" = "Delete Account?";
+"all_deactivate_pop_account_content" = "Click confirm to proceed.";
+"all_deactivate_account_profile_title" = "Delete My Account";
+"all_deactivate_account_success_title" = "Account deleted";
+"all_deactivate_account_success_content" = "Your account has been deleted \n successfully.";
+"all_deactivate_account_pop_cacel" = "Cancel";
+"all_deactivate_account_pop_confirm" = "Confirm";
+"login_success_title" = "Success!";
+"login_success_messsage" = "Your phone number has been verified. Taking you back to {app}";
+
+// Toast and dialog
+"toast_title_added" = "Added";
+"toast_title_removed" = "Removed";
+"dialog_title_expenses_main_leave" = "Unsaved Information";
+"dialog_title_expenses_sub_leave" = "You will lose the filled information, are you sure you want to leave?";
+//"dialog_title_expenses_main_switch" = "Information not saved";
+"dialog_title_expenses_main_switch" = "Unsaved Information";
+"dialog_title_expenses_sub_switch" = "You will lose the filled information, are you sure you want to change expense type?";
+
+"dialog_title_expenses_sub_switch_currency_title" = "Making a currency switch";
+"dialog_title_expenses_sub_switch_currency_content" = "By doing this, all cost items' amounts will be reset to 0. Are you sure?";
+
+
+"dialog_button_title_no" = "No";
+"dialog_button_title_yes" = "Yes";
+"toast_title_unauthorized" = "Unauthorized";
+"dialog_title_unauthorized_session" = "Unauthorized Session";
+"dialog_title_unauthorized_sub_message" = "Your session has expired or your permission has been revoked. You will be required to relogin your credential.";
+"dialog_button_title_ok" = "OK";
+"dialog_title_log_out_main" = "Proceed to Logout?";
+"dialog_title_log_out_message" = "Are you sure you want to log out?";
+
+// language
+"language_setting_title" = "Language";
+"language_name_thai" = "ภาษาไทย";
+"language_name_bahasa" = "Bahasa";
+"language_name_english" = "English";
+
+// date
+"month_date_title_january" = "January";
+"month_date_title_february" = "February";
+"month_date_title_march" = "March";
+"month_date_title_april" = "April";
+"month_date_title_may" = "May";
+"month_date_title_june" = "June";
+"month_date_title_july" = "July";
+"month_date_title_august" = "August";
+"month_date_title_september" = "September";
+"month_date_title_october" = "October";
+"month_date_title_november" = "November";
+"month_date_title_december" = "December";
+
+// create profile
+"create_profile_title" = "Create a Profile";
+"create_profile_form_name" = "Name";
+"create_profile_form_name_placeholder" = "Enter your name";
+"create_profile_form_email" = "Email";
+"create_profile_form_email_placeholder" = "Enter your work email";
+"create_profile_form_password" = "Password";
+"create_profile_form_password_placeholder" = "Enter password";
+"create_profile_form_confirm_password" = "Confirm Password";
+"create_profile_form_confirm_password_placeholder" = "Re-enter password";
+"create_profile_form_country" = "Country";
+"create_profile_form_country_placeholder" = "Select country";
+"create_profile_form_city" = "City";
+"create_profile_form_city_placeholder" = "Select city";
+"create_profile_form_mobile_number" = "Mobile Number";
+"create_profile_form_mobile_number_placeholder" = "Enter mobile number";
+"create_profile_form_dialog_title" = "Profile Not Submitted";
+"create_profile_form_dialog_subtitle" = "You will lose the filled information, are you sure you want to leave?";
+"create_profile_form_incorrect_email" = "Incorrect work email format.";
+"create_profile_form_incorrect_passwords" = "Passwords do not match.";
+"create_profile_form_incorrect_passwords_characters" = "Password must be more than 6 characters.";
+
+"create_profile_form_title_guest" = "Guest Profile Created";
+"create_profile_form_title_guest_subtitle" = "Entering the CORe app!";
+"create_profile_form_title_success" = "Login Success!";
+"create_profile_form_title_success_subtitle" = "Verified login details. Entering the CORe app!";
+"create_profile_form_title_guest_empty" = "We'll update you soon";
+"create_profile_form_expense_head_first" = "We are creating your profile on CAPtain. ";
+"create_profile_form_expense_head_second" = "As soon as it's ready, you can submit expenses!";
+
+// reset password
+"reset_password_title" = "Reset Password";
+"reset_password_send_request" = "Send Request";
+"reset_password_message" = "Enter your email address below and we’ll get you back on track";
+"reset_new_password_title" = "New Password";
+"reset_password_create_new" = "Create a New Password";
+"reset_password_sub_title" = "Enter new password for ";
+"reset_new_password_confirm" = "Confirm New Password";
+"reset_new_password_confirm_placeholder" = "Re-enter password";
+"reset_new_password_confirm_button" = "Confirm";
+"reset_new_password_success_title" = "Password Updated!";
+"reset_new_password_success_subtitle" = "We're taking you back to the login page!";
+
+
+
+
+

@@ -1,0 +1,156 @@
+/*
+  Localizable.strings
+  ClaimApp
+
+  Created by wanggao on 2022/9/7.
+  
+*/
+
+// Login
+"login_with_email_button_title" = "เข้าสู่ระบบด้วยอีเมลที่ทำงาน";
+"login_nav_title" = "เข้าสู่ระบบ";
+"login_title_welcome" = "ยินดีต้อนรับ";
+"login_title_with_email" = "กรุณาเข้าสู่ระบบด้วยอีเมลที่ทำงานของคุณ";
+"login_title_placeholder_email" = "ที่อยู่อีเมลของคุณ";
+"login_title_placeholder_password" = "รหัสผ่านของคุณ";
+"login_title_success" = "สำเร็จ!";
+"login_title_details_verified" = "ข้อมูลของคุณได้รับการยืนยันแล้ว\nกำลังเข้าสู่ CORe App";
+"login_verified_error_message" = "Login failed. Wrong email or password.";
+
+// MY Expenses
+"my_expenses_nav_title" = "รายการค่าใช้จ่าย";
+"my_expenses_button_title_personal" = "ส่วนตัว";
+"my_expenses_button_title_inventory" = "อินเวนทอรี่";
+"my_expenses_title_status_not_submitted" = "ยังไม่ได้ส่ง";
+"my_expenses_title_status_submitted" = "ส่งแล้ว";
+"my_expenses_title_status_approved" = "อนุมัติแล้ว";
+"my_expenses_title_status_reimbursed" = "คืนเงินแล้ว";
+"my_expenses_title_status_rejected" = "ถูกปฏิเสธ";
+"my_expenses_title_swipe_remove" = "ลบ";
+"my_expenses_title_create_expense" = "สร้างแบบฟอร์มค่าใช้จ่ายใหม่";
+
+// New Expense
+"new_expenses_nav_title" = "แบบฟอร์มเคลมค่าใช้จ่าย";
+"new_expenses_button_title_cancel" = "ยกเลิก";
+"new_expenses_button_title_save" = "บันทึก";
+"new_expenses_title_not_saved" = "ยังไม่ได้บันทึก";
+"new_expenses_button_title_personal" = "ค่าใช้จ่ายส่วนตัว";
+"new_expenses_button_title_inventory" = "ค่าใช้จ่ายของอินเวนทอรี่";
+"new_expenses_title_vendor" = "ผู้จำหน่าย";
+"new_expenses_title_vendor_placeholder" = "ใส่ชื่อผู้จำหน่าย";
+"new_expenses_title_bank" = "Bank Name";
+"new_expenses_title_bank_placeholder" = "Enter bank name";
+"new_expenses_title_bank_no." = "Bank Account No.";
+"new_expenses_title_bank_no._placeholder" = "Enter bank no.";
+"new_expenses_title_invoice_no." = "เลขที่ใบแจ้งหนี้";
+"new_expenses_title_invoice_no._placeholder" = "ใส่เลขที่ใบแจ้งหนี้";
+"new_expenses_title_date" = "วันที่";
+"new_expenses_title_date_placeholder" = "เลือกวันที่ในใบแจ้งหนี้";
+"new_expenses_title_due_date" = "Due Date";
+"new_expenses_title_due_date_placeholder" = "Select the due date";
+
+"new_expenses_title_Item" = "รายการที่";
+"new_expenses_title_carplate_placeholder" = "ใส่เลขทะเบียนรถ";
+"new_expenses_title_category_placeholder" = "ใส่ประเภทของค่าใช้จ่าย";
+"new_expenses_title_description_placeholder" = "ใส่รายละเอียดของรายการใช้จ่าย";
+"new_expenses_button_title_add_item" = "เพิ่มรายการใหม่และราคาที่จ่าย";
+"new_expenses_button_title_capture" = "ถ่ายภาพ / อัปโหลดใบเสร็จ";
+"new_expenses_title_payment" = "ชำระเงินคืนให้";
+"new_expenses_title_payment_placeholder" = "เลือกผู้รับเงิน";
+"new_expenses_button_title_make_claim" = "ส่งคำร้องขอคืนเงิน";
+"new_expenses_title_valid_information" = "กรุณาใส่ข้อมูลที่ถูกต้อง";
+"new_expenses_button_title_done" = "เสร็จแล้ว";
+"new_expenses_button_title_tap_change" = "แตะที่นี่เพื่อเปลี่ยน";
+
+"otp_form_nav_title" = "ยืนยัน";
+
+"otp_form_wrong_otp_message" = "เราไม่สามารถยืนยันตัวตนได้ กรุณาลองใหม่อีกครั้ง";
+"otp_form_otp_expired_message" = "รหัสของคุณหมดอายุ ส่งใหม่อีกครั้ง?";
+
+"default_error_title" = "Oops...";
+"login_help_form_nav_title" =  "ช่วยเหลือ";
+"login_help_form_title" =  "กรุณาติดต่อเราที่ 02-508-8425 สำหรับรับรหัสยืนยัน 6 หลัก";
+"login_help_form_call_button_title" =  "โทร";
+"login_help_form_subtitle" =  "ใส่รหัสยืนยัน 6 หลัก\nจากทาง call center";
+"login_help_form_submit_button_title" =  "ยืนยัน";
+
+"otp_form_title" = "ใส่รหัสยืนยัน 6 หลักที่ส่งถึง:";
+"otp_form_normal_footer_title" = "ฉันไม่ได้รับรหัสยืนยัน";
+"otp_form_submit_button_title" = "ยืนยัน";
+"otp_form_resend_button_title" = "ส่งรหัสยืนยันอีกครั้ง";
+"otp_form_resend_countdown_message" = "กำลังส่งรหัสให้ใน {numberOfSeconds}วิ";
+
+"otp_code_sent_title" = "ส่งรหัสยืนยัน";
+"otp_code_sent_message" = "รหัสยืนยันถูกส่งเรียบร้อยให้กับ";
+
+// Profile
+"profile_nav_title" = "บัญชี";
+"profile_title_log_out" = "ออกจากระบบ";
+"profile_dialog_button_title_no" = "ยกเลิก";
+"profile_dialog_button_title_yes" = "ตกลง";
+"all_deactivate_pop_account_title" = "Delete Account?";
+"all_deactivate_pop_account_content" = "Click confirm to proceed.";
+"all_deactivate_account_profile_title" = "Delete My Account";
+"all_deactivate_account_success_title" = "Account deleted";
+"all_deactivate_account_success_content" = "Your account has been deleted \n successfully.";
+"all_deactivate_account_pop_cacel" = "Cancel";
+"all_deactivate_account_pop_confirm" = "Confirm";
+"login_success_title" = "สำเร็จ!";
+"login_success_messsage" = "เบอร์โทรศัพท์ของคุณได้ยืนยันเรียบร้อยแล้ว กำลังกลับไปที่ {app}";
+
+// Toast and dialog
+"toast_title_added" = "เพิ่มแล้ว";
+"toast_title_removed" = "ลบออกแล้ว";
+"dialog_title_expenses_main_leave" = "ข้อมูลยังไม่ได้ถูกบันทึก";
+"dialog_title_expenses_sub_leave" = "ข้อมูลที่กรอกไปแล้วจะถูกลบทิ้ง คุณแน่ใจหรือไม่ว่าต้องการออกจากหน้านี้?";
+"dialog_title_expenses_sub_switch" = "ข้อมูลที่กรอกไปแล้วจะถูกลบทิ้ง คุณแน่ใจหรือไม่ว่าต้องการเปลี่ยนประเภทของค่าใช้จ่าย?";
+"dialog_title_expenses_sub_switch_currency_title" = "Making a currency switch";
+"dialog_title_expenses_sub_switch_currency_content" = "By doing this, all cost items' amounts will be reset to 0. Are you sure?";
+
+"dialog_button_title_no" = "ไม่";
+"dialog_button_title_yes" = "ใช่";
+"toast_title_unauthorized" = "ไม่ได้รับอนุญาต";
+"dialog_title_unauthorized_session" = "เซสชั่นไม่ได้รับอนุญาต";
+"dialog_title_unauthorized_sub_message" = "เซสชั่นของคุณหมดอายุหรือไม่ได้รับการอนุญาตให้ล็อกอิน คุณอาจต้องทำเรื่องร้องขอเจ้าหน้าที่ เพื่อเข้าสู่ระบบใหม่อีกครั้ง";
+"dialog_button_title_ok" = "ตกลง";
+"dialog_title_log_out_main" = "ต้องการออกจากระบบ?";
+"dialog_title_log_out_message" = "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?";
+
+// language
+"language_setting_title" = "Language";
+"language_name_thai" = "ภาษาไทย";
+"language_name_bahasa" = "Bahasa";
+"language_name_english" = "English";
+
+// date
+"month_date_title_january" = "มกราคม";
+"month_date_title_february" = "กุมภาพันธ์";
+"month_date_title_march" = "มีนาคม";
+"month_date_title_april" = "เมษายน";
+"month_date_title_may" = "พฤษภาคม";
+"month_date_title_june" = "มิถุนายน";
+"month_date_title_july" = "กรกฎาคม";
+"month_date_title_august" = "สิงหาคม";
+"month_date_title_september" = "กันยายน";
+"month_date_title_october" = "ตุลาคม";
+"month_date_title_november" = "พฤศจิกายน";
+"month_date_title_december" = "ธันวาคม";
+
+// create profile
+"create_profile_title" = "Create a Profile";
+"create_profile_form_email" = "Email";
+"create_profile_form_email_placeholder" = "Enter your work email";
+"create_profile_form_password" = "Password";
+"create_profile_form_password_placeholder" = "Enter password";
+"create_profile_form_confirm_password" = "Confirm Password";
+"create_profile_form_confirm_password_placeholder" = "re-enter password";
+"create_profile_form_country" = "Country";
+"create_profile_form_country_placeholder" = "Select country";
+"create_profile_form_city" = "City";
+"create_profile_form_city_placeholder" = "Select city";
+"create_profile_form_mobile_number" = "Mobile Number";
+"create_profile_form_mobile_number_placeholder" = "Enter mobile number";
+
+
+
+

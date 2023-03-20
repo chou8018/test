@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ios_genie_staging_performance_enabled</key>
+	<false/>
+	<key>ios_genie_performance_enabled</key>
+	<false/>
+	<key>ios_carro_staging_performance_enabled</key>
+	<false/>
+	<key>ios_carro_performance_enabled</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CAExpensesTipsHeaderView" customModule="ClaimApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="86"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mTo-ST-AMz">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="86"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cQu-3e-gWw">
+                    <rect key="frame" x="16" y="0.0" width="361" height="86"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="For more information, please view the receipt. The expense is a bulk submission, no items will be listed." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYx-5C-PLW">
+                            <rect key="frame" x="8" y="0.0" width="345" height="86"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" red="0.25072029229999998" green="0.51098328829999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94559401269999999" green="0.97287768129999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="XYx-5C-PLW" firstAttribute="top" secondItem="cQu-3e-gWw" secondAttribute="top" id="Ic6-BR-IPQ"/>
+                        <constraint firstAttribute="bottom" secondItem="XYx-5C-PLW" secondAttribute="bottom" id="NC7-Na-rRS"/>
+                        <constraint firstItem="XYx-5C-PLW" firstAttribute="leading" secondItem="cQu-3e-gWw" secondAttribute="leading" constant="8" id="e1M-uC-URJ"/>
+                        <constraint firstAttribute="trailing" secondItem="XYx-5C-PLW" secondAttribute="trailing" constant="8" id="xzF-Vn-N66"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cQu-3e-gWw" secondAttribute="trailing" constant="16" id="6Xw-au-nK2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="mTo-ST-AMz" secondAttribute="bottom" id="PoQ-TM-7oh"/>
+                <constraint firstItem="cQu-3e-gWw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Sd0-R1-9oH"/>
+                <constraint firstItem="cQu-3e-gWw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="X9C-1u-dGW"/>
+                <constraint firstItem="mTo-ST-AMz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XvU-Hv-u0k"/>
+                <constraint firstItem="mTo-ST-AMz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pLd-wr-12S"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="cQu-3e-gWw" secondAttribute="bottom" id="sCQ-g9-ovb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mTo-ST-AMz" secondAttribute="trailing" id="uQ3-SZ-sGk"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="textView" destination="XYx-5C-PLW" id="KhP-OD-ehW"/>
+            </connections>
+            <point key="canvasLocation" x="139.69465648854961" y="279.57746478873241"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

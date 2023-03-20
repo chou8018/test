@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACreateProfileViewController" customModule="ClaimApp" customModuleProvider="target">
+            <connections>
+                <outlet property="buttomView" destination="aTH-bC-kLV" id="SFl-A7-ot2"/>
+                <outlet property="confirmButton" destination="mq4-Zi-Nfn" id="tm5-Er-JS2"/>
+                <outlet property="tableView" destination="aNv-XF-teq" id="fgV-dc-sON"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aNv-XF-teq">
+                    <rect key="frame" x="0.0" y="48" width="414" height="756"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <view key="tableHeaderView" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GZw-B1-IXD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setting up your profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qH0-OS-Yi9">
+                                <rect key="frame" x="124" y="39" width="166" height="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
+                                <color key="textColor" red="0.086274509803921567" green="0.10980392156862745" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fill out the form below, and we'll handle the rest!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5x-BB-Fjd">
+                                <rect key="frame" x="50.5" y="73" width="313.5" height="20"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                                <color key="textColor" red="0.43137254901960786" green="0.47058823529411764" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qH0-OS-Yi9" firstAttribute="centerX" secondItem="GZw-B1-IXD" secondAttribute="centerX" id="1Kk-hd-Sgu"/>
+                            <constraint firstItem="p5x-BB-Fjd" firstAttribute="top" secondItem="qH0-OS-Yi9" secondAttribute="bottom" constant="12" id="gG9-IG-J5W"/>
+                            <constraint firstItem="qH0-OS-Yi9" firstAttribute="centerY" secondItem="GZw-B1-IXD" secondAttribute="centerY" constant="-20" id="yDk-7C-cjB"/>
+                            <constraint firstItem="p5x-BB-Fjd" firstAttribute="centerX" secondItem="qH0-OS-Yi9" secondAttribute="centerX" id="ycZ-Ec-Vim"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ceF-ei-4yN"/>
+                        <outlet property="delegate" destination="-1" id="dCl-5V-VDJ"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aTH-bC-kLV">
+                    <rect key="frame" x="0.0" y="804" width="414" height="58"/>
+                    <subviews>
+                        <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mq4-Zi-Nfn">
+                            <rect key="frame" x="22" y="11" width="370" height="36"/>
+                            <color key="backgroundColor" red="0.87450980392156863" green="0.8901960784313725" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="gNm-gp-z02"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                            <state key="normal" title="Create">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="createProfile:" destination="-1" eventType="touchUpInside" id="NYD-h5-aMi"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="mq4-Zi-Nfn" firstAttribute="leading" secondItem="aTH-bC-kLV" secondAttribute="leading" constant="22" id="2m8-rL-Hqv"/>
+                        <constraint firstAttribute="trailing" secondItem="mq4-Zi-Nfn" secondAttribute="trailing" constant="22" id="Sc5-xh-G3I"/>
+                        <constraint firstItem="mq4-Zi-Nfn" firstAttribute="centerY" secondItem="aTH-bC-kLV" secondAttribute="centerY" id="a50-ba-9Zy"/>
+                        <constraint firstAttribute="height" constant="58" id="oVh-Ca-E4O"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="aNv-XF-teq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="3Mn-P1-EYc"/>
+                <constraint firstItem="aTH-bC-kLV" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="I2B-N2-u34"/>
+                <constraint firstItem="aTH-bC-kLV" firstAttribute="top" secondItem="aNv-XF-teq" secondAttribute="bottom" id="R1l-bd-K7D"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aNv-XF-teq" secondAttribute="trailing" id="W5h-xd-3KT"/>
+                <constraint firstItem="aTH-bC-kLV" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="dhb-Dx-NR8"/>
+                <constraint firstItem="aTH-bC-kLV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="lb3-CS-Y3Z"/>
+                <constraint firstItem="aNv-XF-teq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="quF-bH-rBk"/>
+            </constraints>
+            <point key="canvasLocation" x="72.463768115942031" y="-11.383928571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

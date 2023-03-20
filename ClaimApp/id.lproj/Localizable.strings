@@ -1,0 +1,155 @@
+/*
+  Localizable.strings
+  ClaimApp
+
+  Created by wanggao on 2022/9/7.
+  
+*/
+
+// Login
+"login_with_email_button_title" = "Masuk Dengan Email Kantor";
+"login_nav_title" = "Masuk";
+"login_title_welcome" = "Selamat Datang";
+"login_title_with_email" = "Mohon masuk dengan email kantor anda";
+"login_title_placeholder_email" = "Alamat email anda";
+"login_title_placeholder_password" = "Kata sandi";
+"login_title_success" = "Sukses!";
+"login_title_details_verified" = "Data berhasil diverifikasi.\nMembawa anda ke CORe App";
+"login_verified_error_message" = "Login failed. Wrong email or password.";
+
+// MY Expenses
+"my_expenses_nav_title" = "Pengeluaran Saya";
+"my_expenses_button_title_personal" = "Pribadi";
+"my_expenses_button_title_inventory" = "Inventaris";
+"my_expenses_title_status_not_submitted" = "Belum dikirim";
+"my_expenses_title_status_submitted" = "Terkirim";
+"my_expenses_title_status_approved" = "Disetujui";
+"my_expenses_title_status_reimbursed" = "Sudah Dibayar";
+"my_expenses_title_status_rejected" = "Ditolak";
+"my_expenses_title_swipe_remove" = "Hapus";
+"my_expenses_title_create_expense" = "Buat pengeluaran baru";
+
+// New Expense
+"new_expenses_nav_title" = "Pengeluaran Baru";
+"new_expenses_button_title_cancel" = "Batal";
+"new_expenses_button_title_save" = "Simpan";
+"new_expenses_title_not_saved" = "Belum disimpan";
+"new_expenses_button_title_personal" = "Pengeluaran Pribadi";
+"new_expenses_button_title_inventory" = "Pengeluaran Inventaris";
+"new_expenses_title_vendor" = "Vendor";
+"new_expenses_title_vendor_placeholder" = "Masukan nama vendor";
+"new_expenses_title_bank" = "Bank Name";
+"new_expenses_title_bank_placeholder" = "Enter bank name";
+"new_expenses_title_bank_no." = "Bank Account No.";
+"new_expenses_title_bank_no._placeholder" = "Enter bank no.";
+"new_expenses_title_invoice_no." = "Nomor Invoice";
+"new_expenses_title_invoice_no._placeholder" = "Masukan nomor invoice";
+"new_expenses_title_date" = "Tanggal";
+"new_expenses_title_date_placeholder" = "Masukan tanggal invoice";
+"new_expenses_title_due_date" = "Due Date";
+"new_expenses_title_due_date_placeholder" = "Select the due date";
+
+"new_expenses_title_Item" = "Item";
+"new_expenses_title_carplate_placeholder" = "Masukan nomor plat";
+"new_expenses_title_category_placeholder" = "Masukan kategori pengeluaran";
+"new_expenses_title_description_placeholder" = "Masukan deskripsi item";
+"new_expenses_button_title_add_item" = "Tambah item dan biaya";
+"new_expenses_button_title_capture" = "Foto kwitansi";
+"new_expenses_title_payment" = "Pembayaran kepada";
+"new_expenses_title_payment_placeholder" = "Pilih Penerima";
+"new_expenses_button_title_make_claim" = "Kirim Klaim";
+"new_expenses_title_valid_information" = "Masukan informasi yang valid";
+"new_expenses_button_title_done" = "Selesai";
+"new_expenses_button_title_tap_change" = "Ketuk di sini untuk mengubah";
+
+"default_error_title" = "Oops...";
+"login_help_form_nav_title" =  "Bantuan";
+"login_help_form_title" =  "Hubungi kami untuk mendapatkan 6 digit kode";
+"login_help_form_call_button_title" =  "Hubungi";
+"login_help_form_subtitle" =  "Masukkan 6 digit kode dibawah ini";
+"login_help_form_submit_button_title" =  "Verifikasi";
+
+"otp_form_nav_title" = "Verifikasi";
+"otp_form_wrong_otp_message" = "Kami tidak dapat memverifikasi kode Anda. Harap coba lagi";
+"otp_form_otp_expired_message" = "Kode Verifikasi anda telah kadaluarsa. Kirim ulang?";
+
+"otp_form_title" = "Masukkan 6 digit yang dikirim ke:";
+"otp_form_normal_footer_title" = "Saya tidak menerima kode";
+"otp_form_submit_button_title" = "Verifikasi";
+"otp_form_resend_button_title" = "Kode telah dikirim ulang";
+"otp_form_resend_countdown_message" = "Mengirim ulang kode dalam {numberOfSeconds}menit";
+
+"otp_code_sent_title" = "Kode Verifikasi Telah Dikirim";
+"otp_code_sent_message" = "Kode verifikasi telah berhasil dikirim ke";
+
+// Profile
+"profile_nav_title" = "Profil";
+"profile_title_log_out" = "Keluar";
+"profile_dialog_button_title_no" = "Batalkan";
+"profile_dialog_button_title_yes" = "Konfirmasi";
+"all_deactivate_pop_account_title" =  "Deaktivasi Akun?";
+"all_deactivate_account_profile_title" =  "Deaktivasi Akun";
+"all_deactivate_pop_account_content" = "Click confirm to proceed.";
+"all_deactivate_account_success_title" = "Akun berhasil \ndideaktivasi";
+"all_deactivate_account_success_content" = "Your account has been deleted \n successfully.";
+"all_deactivate_account_pop_cacel" = "Batalkan";
+"all_deactivate_account_pop_confirm" = "Konfirmasi";
+"login_success_title" = "Sukses!";
+"login_success_messsage" = "Nomor telepon anda telah diverifikasi. Membawa anda kembali ke {app}";
+
+// Toast and dialog
+"toast_title_added" = "Ditambah";
+"toast_title_removed" = "Dihapus";
+"dialog_title_expenses_main_leave" = "Informasi belum disimpan";
+"dialog_title_expenses_sub_leave" = "Anda akan kehilangan informasi yang diisi, apakah Anda yakin ingin pergi?";
+"dialog_title_expenses_sub_switch" = "Anda akan kehilangan informasi yang diisi, apakah Anda yakin ingin mengubah jenis pengeluaran?";
+"dialog_title_expenses_sub_switch_currency_title" = "Making a currency switch";
+"dialog_title_expenses_sub_switch_currency_content" = "By doing this, all cost items' amounts will be reset to 0. Are you sure?";
+
+"dialog_button_title_no" = "Tidak";
+"dialog_button_title_yes" = "Ya";
+"toast_title_unauthorized" = "Tidak memiliki akses";
+"dialog_title_unauthorized_session" = "Tidak memiliki akses";
+"dialog_title_unauthorized_sub_message" = "Sesi Anda telah kedaluwarsa atau izin Anda telah dicabut. Anda perlu melakukan login ulang.";
+"dialog_button_title_ok" = "OK";
+"dialog_title_log_out_main" = "Keluar?";
+"dialog_title_log_out_message" = "Apakah anda yakin ingin keluar?";
+
+// language
+"language_setting_title" = "Language";
+"language_name_thai" = "ภาษาไทย";
+"language_name_bahasa" = "Bahasa";
+"language_name_english" = "English";
+
+// date
+"month_date_title_january" = "Januari";
+"month_date_title_february" = "Februari";
+"month_date_title_march" = "Maret";
+"month_date_title_april" = "April";
+"month_date_title_may" = "Mei";
+"month_date_title_june" = "Juni";
+"month_date_title_july" = "Juli";
+"month_date_title_august" = "Agustus";
+"month_date_title_september" = "September";
+"month_date_title_october" = "Oktober";
+"month_date_title_november" = "November";
+"month_date_title_december" = "Desember";
+
+// create profile
+"create_profile_title" = "Create a Profile";
+"create_profile_form_email" = "Email";
+"create_profile_form_email_placeholder" = "Enter your work email";
+"create_profile_form_password" = "Password";
+"create_profile_form_password_placeholder" = "Enter password";
+"create_profile_form_confirm_password" = "Confirm Password";
+"create_profile_form_confirm_password_placeholder" = "re-enter password";
+"create_profile_form_country" = "Country";
+"create_profile_form_country_placeholder" = "Select country";
+"create_profile_form_city" = "City";
+"create_profile_form_city_placeholder" = "Select city";
+"create_profile_form_mobile_number" = "Mobile Number";
+"create_profile_form_mobile_number_placeholder" = "Enter mobile number";
+
+
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>840863686043-k6v280bnipg23r6k6tdb5ms37hlmihgd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.840863686043-k6v280bnipg23r6k6tdb5ms37hlmihgd</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>840863686043-0536jg49g0gvokqd1dertqedl4m6p0it.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCyu-pA0azWnM_Ba2NJFKWxh4MS-SnCb-w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>840863686043</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sg.carro.COReStaging</string>
+	<key>PROJECT_ID</key>
+	<string>carro-rabbit2-web</string>
+	<key>STORAGE_BUCKET</key>
+	<string>carro-rabbit2-web.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:840863686043:ios:a95a149eb126a04773153e</string>
+	<key>DATABASE_URL</key>
+	<string>https://carro-rabbit2-web.firebaseio.com</string>
+</dict>
+</plist>
